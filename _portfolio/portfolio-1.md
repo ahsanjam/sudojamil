@@ -49,7 +49,7 @@ Given MNIST’s relative simplicity, both activation functions suffice to achiev
 2. Both models show minimal overfitting, evidenced by the parallel trends of training and validation curves, thanks to Dropout and Early Stopping.
 3. The Tanh model can exhibit a slower climb in accuracy but eventually narrows the gap. In terms of loss, both converge to similarly low values, though ReLU may do so in fewer epochs.
 
-![image](https://github.com/ahsanjam/MNIST-NN/blob/main/Accuracy%20and%20Loss)
+![image](https://github.com/ahsanjam/sudojamil/blob/master/images/Accuracy-and-Loss.png)
 
 ### Confusion Matrices for each model on the test set – Observations:
 
@@ -58,5 +58,5 @@ Given MNIST’s relative simplicity, both activation functions suffice to achiev
 3. The ReLU model’s confusion matrix shows slightly fewer off-diagonal errors in some runs, consistent with its marginally higher overall accuracy.
 4. The Tanh model’s confusion matrix looks similar but can present small clusters of confusion among digits with very similar strokes.
 
-![image](https://github.com/ahsanjam/MNIST-NN/blob/main/Confusion%20Matrices)
+![image](https://github.com/ahsanjam/sudojamil/blob/master/images/Confusion%20Matrices.png)
 
