@@ -60,7 +60,3 @@ Given MNIST’s relative simplicity, both activation functions suffice to achiev
 4. The Tanh model’s confusion matrix looks similar but can present small clusters of confusion among digits with very similar strokes.
 
 ![image](https://github.com/ahsanjam/sudojamil/blob/master/images/Confusion%20Matrices.png)
-
-
-
-[https://github.com/ahsanjam/sudojamil/blob/master/images/Accuracy-and-Loss-2.png]: https://github.com/ahsanjam/sudojamil/blob/master/images/Accuracy-and-Loss-2.png
