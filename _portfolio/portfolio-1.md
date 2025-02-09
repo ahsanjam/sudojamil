@@ -1,6 +1,6 @@
 ---
 title: "Neural Network - MNIST"
-excerpt: ![image][https://github.com/ahsanjam/sudojamil/blob/master/images/Accuracy-and-Loss-2.png]
+excerpt: "A single hidden layer (128 Neurons) Neural Network to detect handwritten digits. ![image][https://github.com/ahsanjam/sudojamil/blob/master/images/Accuracy-and-Loss-2.png]"
 #"<img src='/images/Accuracy-and-Loss-2.png'>"
 collection: portfolio
 ---
