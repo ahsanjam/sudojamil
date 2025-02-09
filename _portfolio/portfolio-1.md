@@ -1,6 +1,6 @@
 ---
 title: "Neural Network - MNIST"
-excerpt: "A single layer (128 Neuron) neural network for detecting handwritten digits from the MNIST dataset 1<br/><img src='/images/Accuracy-and-Loss.png'>"
+excerpt: "A single layer (128 Neuron) neural network for detecting handwritten digits from the MNIST dataset 1<br/><img src='/images/Accuracy-and-Loss-2.png'>"
 collection: portfolio
 ---
 
