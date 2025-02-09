@@ -1,6 +1,7 @@
 ---
 title: "Neural Network - MNIST"
-excerpt: "<img src='/images/Accuracy-and-Loss-2.png'>"
+excerpt: ![image][https://github.com/ahsanjam/sudojamil/blob/master/images/Accuracy-and-Loss-2.png]
+#"<img src='/images/Accuracy-and-Loss-2.png'>"
 collection: portfolio
 ---
 
@@ -60,3 +61,6 @@ Given MNIST’s relative simplicity, both activation functions suffice to achiev
 
 ![image](https://github.com/ahsanjam/sudojamil/blob/master/images/Confusion%20Matrices.png)
 
+
+
+[https://github.com/ahsanjam/sudojamil/blob/master/images/Accuracy-and-Loss-2.png]: https://github.com/ahsanjam/sudojamil/blob/master/images/Accuracy-and-Loss-2.png
