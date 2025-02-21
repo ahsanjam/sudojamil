@@ -38,7 +38,7 @@ In my transformation logic, I also developed a macro that calculates a discounte
 
 ## Lineage Graph
 
-![Image](https://github.com/ahsanjam/sudojamil/blob/master/images/lineage-graph.png)
+![Image](https://github.com/ahsanjam/sudojamil/blob/b0d01820747a1a8a5bca16889dc9d7dd3372ade1/images/lineage-graph.png)
 
 The lineage graph (shown above) highlights how data flows from the staging views to the intermediate tables and then on to the fact and dimension layers. This visualization helps me understand dependencies and the overall structure of the pipeline. It reveals how stg_tpch_orders, stg_tpch_lineitems, and stg_tpch_customer feed into the dimension and fact tables:
 
