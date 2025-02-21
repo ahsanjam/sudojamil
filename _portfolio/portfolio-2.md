@@ -38,12 +38,13 @@ In my transformation logic, I also developed a macro that calculates a discounte
 
 ## Lineage Graph
 
-![Image](../images/lineage-graph.png)
+![Lineage Graph](../images/lineage-graph.png)
 
 The lineage graph (shown above) highlights how data flows from the staging views to the intermediate tables and then on to the fact and dimension layers. This visualization helps me understand dependencies and the overall structure of the pipeline. It reveals how stg_tpch_orders, stg_tpch_lineitems, and stg_tpch_customer feed into the dimension and fact tables:
 
 int_order_items → int_order_items_summary → fct_orders
-dim_customer_orders → fct_orders
+
+stg_tpch_customer → dim_customer_orders 
 
 ## Documentation
 Finally, I documented all these models, tests, and macros within dbt, and published the dbt docs as a website through GitHub Pages. You can find a more detailed overview of each table, column definitions, and dependencies at [my dbt docs site](https://ahsanjam.github.io/tpch_snowflake_datapipeline/#!/overview). This documentation not only improves transparency for others reviewing or collaborating on the project but also serves as a reference point for me when iterating on the pipeline in the future.
